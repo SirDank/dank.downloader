@@ -8,9 +8,9 @@ echo " | |__| | (_| | | | |   < _| |__| | (_) \ V  V /| | | | | (_) | (_| | (_| 
 echo " |_____/ \__,_|_| |_|_|\_(_)_____/ \___/ \_/\_/ |_| |_|_|\___/ \__,_|\__,_|\___|_|    "
 echo "                                                                                      "
 echo "======================================================================================"
-echo(
-echo Helps you download essential Windows 10, 64-Bit Programs :P ( well atleast for me )
+echo.
 
+echo Helps you download essential Windows 10, 64-Bit Programs :P ( well atleast for me )
 timeout /t 2 /nobreak > NUL
 md C:\DankDownloads
 set directory=C:\DankDownloads\
@@ -19,10 +19,8 @@ echo(
 set /P WA=Download Win10 Activator [Y/N]: 
 set /P MCT=Download Win10 MediaCreationTool [Y/N]: 
 set /P SS=Open Win10 Sophia-Script [ Debloater ] [Y/N]: 
-
 set /P NV=Open Nvidia GeForce Experience [Y/N]: 
 set /P RT=Open Realtek HD Audio Driver [Y/N]: 
-
 set /P ASC=Download IOBIT Advanced System Care [Y/N]: 
 set /P DB=Open IOBIT Driver Booster [Y/N]: 
 set /P SD=Open IOBIT Smart Defrag [Y/N]: 
@@ -36,10 +34,11 @@ echo.
 
 set downloadurl=https://download1510.mediafire.com/nsvrpmq8jmng/6hthkteolw7frhw/start.txt
 set downloadpath=C:\DankDownloads\start.txt
-echo Downloading start.txt - Temporary File | Deleted Upon Completion
+echo Downloading temp file start.txt - deleted upon completion
 powershell.exe -Command "Start-BitsTransfer -Source '%downloadurl%' -Destination '%downloadpath%' -Description start.txt -TransferType Download"
 timeout /t 1 /nobreak > NUL
 echo Done!
+echo.
 
 if /I [%WA%] EQU [Y] (
    set downloadurl=https://download944.mediafire.com/scfdlkiaqaig/2sdp6xh7ijahhd4/Win10-Activator.zip
@@ -166,7 +165,7 @@ if /I [%MC%] EQU [Y] (
 
 set downloadurl=https://download1510.mediafire.com/1lhvtfx52ydg/j1uh05fi27zzy9a/end.txt
 set downloadpath=C:\DankDownloads\end.txt
-echo Downloading end.txt - Temporary File | Deleted Upon Completion
+echo Downloading temp file end.txt - deleted upon completion
 powershell.exe -Command "Start-BitsTransfer -Source '%downloadurl%' -Destination '%downloadpath%' -Description start.txt -TransferType Download"
 timeout /t 1 /nobreak > NUL
 echo Done!
