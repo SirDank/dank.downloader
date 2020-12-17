@@ -15,7 +15,7 @@ timeout /t 2 /nobreak > NUL
 md C:\DankDownloads
 set directory=C:\DankDownloads\
 
-echo(
+echo.
 set /P WA=Download Win10 Activator [Y/N]: 
 set /P MCT=Download Win10 MediaCreationTool [Y/N]: 
 set /P SS=Open Win10 Sophia-Script [ Debloater ] [Y/N]: 
