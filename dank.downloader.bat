@@ -9,7 +9,7 @@ echo " |_____/ \__,_|_| |_|_|\_(_)_____/ \___/ \_/\_/ |_| |_|_|\___/ \__,_|\__,_
 echo "                                                                                      "
 echo "======================================================================================"
 echo(
-echo Downloads Essentials Windows 64-Bit Programs :P ( well atleast for me )
+echo Helps you download essential Windows 10, 64-Bit Programs :P ( well atleast for me )
 
 timeout /t 2 /nobreak > NUL
 md C:\DankDownloads
@@ -19,6 +19,10 @@ echo(
 set /P WA=Download Win10 Activator [Y/N]: 
 set /P MCT=Download Win10 MediaCreationTool [Y/N]: 
 set /P SS=Open Win10 Sophia-Script [ Debloater ] [Y/N]: 
+
+set /P NV=Open Nvidia GeForce Experience [Y/N]: 
+set /P RT=Open Realtek HD Audio Driver [Y/N]: 
+
 set /P ASC=Download IOBIT Advanced System Care [Y/N]: 
 set /P DB=Open IOBIT Driver Booster [Y/N]: 
 set /P SD=Open IOBIT Smart Defrag [Y/N]: 
@@ -58,6 +62,22 @@ if /I [%MCT%] EQU [Y] (
 if /I [%SS%] EQU [Y] (
    echo Opening Github Sophia-Script...
    powershell.exe -Command "Start-Process https://github.com/farag2/Windows-10-Sophia-Script/releases"
+   timeout /t 1 /nobreak > NUL
+   echo Done!
+   echo.
+)
+
+if /I [%NV%] EQU [Y] (
+   echo Opening Nvidia GeForce Experience...
+   powershell.exe -Command "Start-Process https://www.nvidia.com/en-us/geforce/drivers/"
+   timeout /t 1 /nobreak > NUL
+   echo Done!
+   echo.
+)
+
+if /I [%RT%] EQU [Y] (
+   echo Opening Realtek HD Audio Driver...
+   powershell.exe -Command "Start-Process https://realtek-download.com/download-hd/"
    timeout /t 1 /nobreak > NUL
    echo Done!
    echo.
