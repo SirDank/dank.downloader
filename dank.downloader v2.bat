@@ -57,6 +57,8 @@ set /P TV=Download TeamViewer [Y/ENTER]:
 set /P SB=Open Sandboxie [Y/ENTER]: 
 echo.
 
+echo "==========< Downloading >=========="
+echo.
 if /I [%WA%] EQU [Y] (
    echo Downloading Win10 Activator...
    powershell.exe -Command "Start-Process https://www.mediafire.com/file/2sdp6xh7ijahhd4/Win10-Activator.zip/file"
@@ -69,6 +71,7 @@ if /I [%MCT%] EQU [Y] (
    echo Downloading Win10 MediaCreationTool...
    powershell.exe -Command "Start-Process https://go.microsoft.com/fwlink/?LinkId=691209"
    timeout /t 1 /nobreak > NUL
+   echo Done!
    echo.
 )
 
@@ -147,6 +150,7 @@ if /I [%FF%] EQU [Y] (
 if /I [%TR%] EQU [Y] (
    echo Opening Tor Website...
    powershell.exe -Command "Start-Process https://www.torproject.org/download/"
+   timeout /t 1 /nobreak > NUL
    echo Done!
    echo.
 )
@@ -163,6 +167,7 @@ if /I [%MC%] EQU [Y] (
    echo Downloading Minecraft...
    powershell.exe -Command "Start-Process https://launcher.mojang.com/download/MinecraftInstaller.msi"
    timeout /t 1 /nobreak > NUL
+   echo Done!
    echo.
 )
 
@@ -170,6 +175,7 @@ if /I [%TV%] EQU [Y] (
    echo Downloading TeamViewer...
    powershell.exe -Command "Start-Process https://download.teamviewer.com/download/TeamViewer_Setup.exe"
    timeout /t 1 /nobreak > NUL
+   echo Done!
    echo.
 )
 
@@ -177,10 +183,11 @@ if /I [%SB%] EQU [Y] (
    echo Opening Sandboxie...
    powershell.exe -Command "Start-Process https://github.com/sandboxie-plus/Sandboxie/releases"
    timeout /t 1 /nobreak > NUL
+   echo Done!
    echo.
 )
 
-echo "==========< Finished! >=========="
+echo "==========< Downloaded! >=========="
 echo.
 echo Downloaded Files located in your Downloads Folder xD
 echo sir.dank was here x)
