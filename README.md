@@ -10,3 +10,5 @@ List of programs:
 - Firefox
 - Steam
 - Minecraft
+- TeamViewer
+- Sandboxie
