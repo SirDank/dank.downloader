@@ -211,6 +211,6 @@ color 0e
 color 0a
 echo.
 echo "==========< 69 >=========="
-powershell.exe -Command "Start-Process https://linktr.ee/sir.dankenstein"
+powershell.exe -Command "Start-Process https://allmylinks.com/sir-dankenstein"
 echo.
 pause
