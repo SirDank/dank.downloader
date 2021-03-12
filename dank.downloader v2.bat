@@ -190,7 +190,31 @@ if /I [%SB%] EQU [Y] (
 echo "==========< Downloaded! >=========="
 echo.
 echo Downloaded Files located in your Downloads Folder xD
-echo sir.dank was here x)
+echo.
+echo "               /-/                \-\               "
+echo "             -- /                  \ --             "
+echo "            /  /                    \  \            "
+echo "        \  /  --\                  \--  \  /        "
+echo "        |\-      --   |---\      --      -/|        "
+echo "        \ -      /-  /     ----  \       - /        "
+echo "        --      -   /         |   -      --         "
+echo "         -      /   | +    +  /   \      -          "
+echo "       -/      |   /-        |     |      \-        "
+echo "      /        /     \-      /  /  \        \       "
+echo "     /        /   -\   \    | /-    \        \      "
+echo "   -/        /      --\      /       \        \-    "
+echo "  /         |          --  /-         |         \   "
+echo "  |         /           | -           \         |   "
+echo "  \      --|            | |            |--      /   "
+echo "   | ---/               | |               \--- |    "
+echo "   |/                   | |                   \|    "
+echo "   ________.__      ________                 __     "
+echo "  /   _____|________\______ \ _____    ____ |  | __ "
+echo "  \_____  \|  \_  __ |    |  \\__  \  /    \|  |/ / "
+echo "  /        |  ||  | \|    `   \/ __ \|   |  |    <  "
+echo " /_______  |__||__| /_______  (____  |___|  |__|_ \ "
+echo "         \/                 \/     \/     \/     \/ "
+echo.
 color 09
 color 0b
 color 0c
