@@ -1,6 +1,8 @@
 # dank.downloader
 Helps you download essential Windows 10, 64-Bit Programs! ( well atleast for me )
 
+Short URL: http://bit.ly/dank-downloader
+
 Preview:
 
 ![image](https://i.imgur.com/ZgCnspF.png)
@@ -22,5 +24,3 @@ List of programs:
 - Minecraft
 - TeamViewer
 - Sandboxie
-
-Short URL: http://bit.ly/dank-downloader
