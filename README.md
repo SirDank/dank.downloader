@@ -1,8 +1,9 @@
 # dank.downloader
 Helps you download essential Windows 10, 64-Bit Programs! ( well atleast for me )
 
-Short URL: http://bit.ly/dank-downloader
-Short URL - Direct Download: http://bit.ly/dank-downloader-direct
+Github Short-URL: http://bit.ly/dank-downloader
+
+Direct Download: http://bit.ly/dank-downloader-direct
 
 Preview:
 
