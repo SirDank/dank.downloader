@@ -5,6 +5,10 @@ Github Short-URL: http://bit.ly/dank-downloader
 
 Direct Download: http://bit.ly/dank-downloader-direct
 
+Requirements:
+- Powershell
+- Any Browser
+
 Preview:
 
 ![image](https://i.imgur.com/ZgCnspF.png)
