@@ -29,7 +29,7 @@ color 0d
 
 echo "==========< Essential Windows Stuff >=========="
 echo.
-set /P WA=Download Win10 Activator [Y/ENTER]: 
+set /P MAS=Open Microsoft Activation Scripts [Y/ENTER]: 
 set /P MCT=Download Win10 MediaCreationTool [Y/ENTER]: 
 set /P WDB=Open Github Windows10 Debloat Scripts [Y/ENTER]: 
 set /P NV=Open NVCleanstall { Nvidia GeForce Experience Alternative } [Y/ENTER]: 
@@ -68,9 +68,9 @@ echo.
 echo "==========< Starting [ Essential Windows Stuff ] >=========="
 echo.
 
-if /I [%WA%] EQU [Y] (
+if /I [%MAS%] EQU [Y] (
    echo Downloading Win10 Activator...
-   powershell.exe -Command "Start-Process https://www.mediafire.com/file/2sdp6xh7ijahhd4/Win10-Activator.zip/file"
+   powershell.exe -Command "Start-Process https://github.com/massgravel/Microsoft-Activation-Scripts/releases"
    timeout /t 1 /nobreak > NUL
    echo Done!
    echo.
