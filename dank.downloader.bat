@@ -344,7 +344,6 @@ color 0b
 color 0c
 color 0e
 color 0d
-echo.
 echo "==========< 69 >=========="
 powershell.exe -Command "Start-Process https://allmylinks.com/sir-dankenstein"
 echo.
