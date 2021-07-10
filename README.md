@@ -11,22 +11,34 @@ Requirements:
 
 Preview:
 
-![image](https://i.imgur.com/ZgCnspF.png)
+![image](https://user-images.githubusercontent.com/52797753/125163665-cd013e00-e1ab-11eb-9748-cdf806c28e27.png)
 
 List of programs:
-- Win10 Activator Script
+- Microsoft Activation Scripts
 - Win10 MediaCreationTool
-- Win10 Sophia-Script
-- Nvidia GeForce Experience
+- Win10 Debloat Scripts
+- NVCleanstall
 - Realtek HD Audio Driver
 - IOBIT AdvancedSystemCare
 - IOBIT Driver Booster
 - IOBIT Smart Defrag
+- IOBIT Uninstaller
+- IOBIT Software Updater
 - WinRAR 6
+- Notepad++
 - Google Chrome
 - Firefox
 - Tor
 - Steam
+- Discord
 - Minecraft
+- Battle.net
 - TeamViewer
+- MegaSync
 - Sandboxie
+- Virtualbox
+- QBittorrent
+- Visual Studio Code
+- Github Desktop
+- Python
+- Java
