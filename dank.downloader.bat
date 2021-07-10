@@ -31,7 +31,7 @@ echo "==========< Essential Windows Stuff >=========="
 echo.
 set /P MAS=Open Microsoft Activation Scripts [Y/ENTER]: 
 set /P MCT=Download Win10 MediaCreationTool [Y/ENTER]: 
-set /P WDB=Open Github Windows10 Debloat Scripts [Y/ENTER]: 
+set /P WDB=Open Github Win10 Debloat Scripts [Y/ENTER]: 
 set /P NV=Open NVCleanstall { Nvidia GeForce Experience Alternative } [Y/ENTER]: 
 set /P RT=Open Realtek HD Audio Driver [Y/ENTER]: 
 echo.
