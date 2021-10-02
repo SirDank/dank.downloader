@@ -7,6 +7,8 @@ Direct Download: http://bit.ly/dank-downloader-direct2
 
 Preview:
 
+![image](https://user-images.githubusercontent.com/52797753/135713779-6a22d93b-25be-41a5-8f0a-c87be136d91f.png)
+
 List of programs:
 - Microsoft Activation Scripts
 - Win10 MediaCreationTool
