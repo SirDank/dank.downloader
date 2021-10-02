@@ -1,44 +1,49 @@
-# dank.downloader
-Helps you download essential Windows 10, 64-Bit Programs! ( well atleast for me )
+# dank.downloader.exe
+Helps you instantly download multiple windows x64 software ( well atleast for me )
 
 Github Short-URL: http://bit.ly/dank-downloader
 
-Direct Download: http://bit.ly/dank-downloader-direct
-
-Requirements:
-- Powershell
-- Any Browser
+Direct Download: http://bit.ly/dank-downloader-direct2
 
 Preview:
-
-![image](https://user-images.githubusercontent.com/52797753/125163665-cd013e00-e1ab-11eb-9748-cdf806c28e27.png)
 
 List of programs:
 - Microsoft Activation Scripts
 - Win10 MediaCreationTool
-- Win10 Debloat Scripts
-- NVCleanstall
+- Github Win10 Debloat Scripts
+- NVCleanstall { Nvidia GeForce Experience Alternative }
 - Realtek HD Audio Driver
-- IOBIT AdvancedSystemCare
+- IOBIT Advanced System Care
 - IOBIT Driver Booster
-- IOBIT Smart Defrag
 - IOBIT Uninstaller
 - IOBIT Software Updater
-- WinRAR 6
-- Notepad++
-- Google Chrome
-- Firefox
-- Tor
-- Steam
-- Discord
-- Minecraft
-- Battle.net
-- TeamViewer
-- MegaSync
-- Sandboxie
-- Virtualbox
-- QBittorrent
-- Visual Studio Code
-- Github Desktop
-- Python
-- Java
+- Avast
+- Battle.net 
+- Discord 
+- Figma 
+- Firefox 
+- Github Desktop 
+- Google Chrome 
+- Java 8 
+- MegaSync 
+- MinGW 
+- Minecraft 
+- Netflix 
+- Notepad++ 
+- Python 
+- QBittorrent 
+- Sandboxie 
+- Spotify 
+- Steam 
+- TeamViewer 
+- Telegram 
+- Tor 
+- VNC Viewer 
+- Virtualbox 
+- Visual Studio Code 
+- Vmware 
+- WinRAR 6 + Key 
+- WinSCP
+- dank.resourcepack
+- dank.serverbuilder
+- spiral-knights-modpack
