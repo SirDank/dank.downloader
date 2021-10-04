@@ -561,7 +561,7 @@ def on_release(key):
 # updater
 
 project = "dank.downloader"
-current_version = 3.0
+current_version = 3.1
 
 try:
     os.remove(f"{project}.exe")
