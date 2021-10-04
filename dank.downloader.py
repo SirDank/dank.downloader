@@ -6,6 +6,7 @@ import requests
 import keyboard
 import webbrowser as web
 import concurrent.futures
+from packaging import version
 from colorama import init, Fore, Style
 from pynput.keyboard import Key, Listener
 keyboard.press('f11')
@@ -579,7 +580,7 @@ while not Success:
     except:
         wait = input( "\n\n" + aligner(f"{red}Failed to check for an update! Make sure you are connected to the Internet! Press {white}Enter {red}to try again"))
 
-if latest_version > current_version:
+if version.parse(str(latest_version)) > version.parse(str(current_version)):
 
     to_print = f"\n\n{banner()}\n\n\n\n{aligner(f'{magenta}[ {white}Version : {current_version} {magenta}]')}"
     os.system('cls')
