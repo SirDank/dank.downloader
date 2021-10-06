@@ -586,7 +586,7 @@ if version.parse(str(latest_version)) > version.parse(str(current_version)):
     os.system('cls')
     sys.stdout.write(to_print)
 
-    choice = str(input( "\n\n" + aligner(f"{white}Update Found{magenta}: {white}{latest_version}") + "\n\n" + aligner(f"{white}Download latest version? {magenta}[ {white}y {magenta}/ {white}n {magenta}]{white}: "))).lower()
+    choice = str(input( "\n\n" + aligner(f"{white}Update Found{magenta}: {white}{latest_version}") + "\n\n" + aligner(f"{white}Download latest version? {magenta}[ {white}y {magenta}/ {white}n {magenta}]{white}:").rstrip(" ") + " ")).lower()
     if choice == "y":
         print( "\n\n" + aligner(f"{magenta}[ {white}Downloading {project}-latest.exe {magenta}]"))
         data = requests.get(f"https://github.com/SirDankenstien/{project}/blob/main/{project}.exe?raw=true", allow_redirects=True).content
