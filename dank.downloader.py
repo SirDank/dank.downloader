@@ -561,7 +561,7 @@ def on_release(key):
 # updater - no longer required
 
 try:
-    os.remove("dank.downloader-latest.exe")
+    os.remove("dank.downloader.exe")
 except:
     pass
 
