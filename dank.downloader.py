@@ -1,3 +1,7 @@
+# Note: dank.downloader.py is meant to be run as an .exe by default, if you would like to execute the script, make the below changes...
+#       - uncomment the following line > filepath = os.path.dirname(__file__) # as .py
+#       - comment the following line > filepath = os.path.dirname(sys.argv[0]) # as .exe
+
 import os
 import sys
 import time
@@ -6,17 +10,13 @@ import requests
 import keyboard
 import webbrowser as web
 import concurrent.futures
-from packaging import version
 from colorama import init, Fore, Style
 from pynput.keyboard import Key, Listener
 keyboard.press('f11')
 
-try:
-    #filepath = os.path.dirname(__file__) # as .py
-    filepath = os.path.dirname(sys.argv[0]) # as .exe
-    os.chdir(filepath)
-except:
-    pass
+#filepath = os.path.dirname(__file__) # as .py
+filepath = os.path.dirname(sys.argv[0]) # as .exe
+os.chdir(filepath)
 
 # colors
 
@@ -558,15 +558,17 @@ def on_release(key):
     else:
         download_phase()
 
-# updater
+# updater - no longer required
+
+try:
+    os.remove("dank.downloader-latest.exe")
+except:
+    pass
+
+'''
 
 project = "dank.downloader"
 current_version = 3.1
-
-try:
-    os.remove(f"{project}.exe")
-except:
-    pass
 
 Success = False
 while not Success:
@@ -600,6 +602,8 @@ if version.parse(str(latest_version)) > version.parse(str(current_version)):
 #    print(f"\n{white}> {magenta}Latest Version!")
 #else:
 #    print(f"\n{white}> {magenta}Development Version!")
+
+'''
 
 # variables
 
