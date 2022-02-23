@@ -1,3 +1,8 @@
+# 🚨 DISCLAIMER 🚨
+
+- This project is being moved into > https://github.com/SirDank/dank.tool (coming-soon)
+- All updates will be available on the same, thus this repo will not receive updates
+
 # dank.downloader.exe
 Helps you instantly download multiple windows x64 software ( well atleast for me )
 
